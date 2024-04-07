@@ -1,0 +1,37 @@
+/* styles.css */
+.slideInRight {
+    @keyframes slideInRight {
+      from {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+      /* justify-content-end */
+    }
+  }
+  
+  .slideOutLeft {
+    @keyframes slideOutLeft {
+      from {
+        transform: translateX(0);
+        opacity: 1;
+      }
+      to {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+    }
+  }
+.nav-link{
+    font-size: '14px';
+    color: 'white';
+} 
+
+@media (max-width: 768px) {
+  #secondDiv {
+    background-color: 'red';  
+  }
+}
